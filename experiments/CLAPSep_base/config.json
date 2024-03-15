@@ -1,0 +1,40 @@
+{
+    "model":
+    {
+        "lan_embed_dim": 1024,
+        "depths": [1,1,1,1],
+        "embed_dim": 128,
+        "encoder_embed_dim": 128,
+        "phase": false,
+        "spec_factor": 8,
+        "d_attn": 640,
+        "n_masker_layer": 3,
+        "conv": false
+    },
+    "train_data":
+    {
+        "input_dir": "/home/user/202212661/clapsep/Waveformer-main/data/audiocap",
+        "dset": "train",
+        "sr": 32000,
+        "resample_rate": 48000
+    },
+    "val_data":
+    {
+        "input_dir": "/home/user/202212661/clapsep/Waveformer-main/data/audiocap",
+        "dset": "val",
+        "sr": 32000,
+        "resample_rate": 48000
+    },
+    "optim":
+    {
+        "lr": 1e-4
+    },
+    "clap_path": "/home/user/202212661/CLAP-main/src/laion_clap/music_audioset_epoch_15_esc_90.14.pt",
+    "lora": true,
+    "lora_rank": 16,
+    "nfft": 1024,
+    "epochs": 150,
+    "batch_size": 16,
+    "eval_batch_size": 32,
+    "n_workers": 8
+}
