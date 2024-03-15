@@ -20,6 +20,7 @@ audiocap
 	├──......
 	└──YrqfQRErjfk8.wav
 ```
+Prepocessed MUSIC21 dataset can be found [here](https://drive.google.com/file/d/1SYWNWLV_CA_7a77YO5J2mW6XlwVe8Zsl/view?usp=drive_link).
 
 ## Training
 
