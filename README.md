@@ -20,7 +20,6 @@ audiocap
 	├──......
 	└──YrqfQRErjfk8.wav
 ```
-Prepocessed MUSIC21 dataset can be found [here](https://drive.google.com/file/d/1SYWNWLV_CA_7a77YO5J2mW6XlwVe8Zsl/view?usp=drive_link).
 
 ## Training
 
@@ -33,6 +32,8 @@ python train.py ./experiments/CLAPSep_base --use_cuda --gpu_ids 0 1
 TODO
 
 We have released the metadata for all evaluation benchmarks in `./metadata/evaluation`.
+
+_Prepocessed MUSIC21 dataset can be found [here](https://drive.google.com/file/d/1SYWNWLV_CA_7a77YO5J2mW6XlwVe8Zsl/view?usp=drive_link)._
 
 ## Pretrained model
 
