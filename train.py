@@ -45,7 +45,7 @@ def main(args):
         benchmark=True,
         gradient_clip_val=5.0,
         precision='bf16-mixed',
-        limit_train_batches=0.01,
+        limit_train_batches=1.0,
         max_epochs=args.epochs,
         strategy=distributed_backend,
     )
