@@ -1,0 +1,10 @@
+torch
+librosa
+torchaudio
+torchvision
+torchlibrosa
+numpy
+einops
+loralib
+transformers==4.30.2
+laion-clap
