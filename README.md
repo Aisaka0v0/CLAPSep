@@ -1,7 +1,6 @@
 # CLAPSep
 Official implementation of CLAPSep: Leveraging Contrastive Pre-trained Models for Multi-Modal Query-Conditioned Target Sound Extraction.
 
-[![arXiv](https://img.shields.io/badge/arXiv-2402.17455-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/2402.17455)
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/AisakaMikoto/CLAPSep)
 ## Data Preparation
 Organize raw audio files in AudioCaps as follows:
@@ -38,13 +37,3 @@ _Prepocessed MUSIC21 dataset can be found [here](https://drive.google.com/file/d
 ## Pretrained model
 
 Get the pretrained model on our [huggingface](https://huggingface.co/spaces/AisakaMikoto/CLAPSep/tree/main/model) repo.
-
-## Citation
-```
-@article{ma2024clapsep,
-  title={CLAPSep: Leveraging Contrastive Pre-trained Models for Multi-Modal Query-Conditioned Target Sound Extraction},
-  author={Ma, Hao and Peng, Zhiyuan and Shao, Mingjie and Liu, Ju and Li, Xu and Wu, Xixin},
-  journal={arXiv preprint arXiv:2402.17455},
-  year={2024}
-}
-```
