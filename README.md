@@ -1,7 +1,10 @@
 # CLAPSep
-Official implementation of CLAPSep: Leveraging Contrastive Pre-trained Models for Multi-Modal Query-Conditioned Target Sound Extraction.
+
 [![githubio](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://aisaka0v0.github.io/CLAPSep_demo/)
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/AisakaMikoto/CLAPSep)
+
+Official implementation of CLAPSep: Leveraging Contrastive Pre-trained Models for Multi-Modal Query-Conditioned Target Sound Extraction.
+
 ## Data Preparation
 Organize raw audio files in AudioCaps as follows:
 ```
