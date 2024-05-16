@@ -267,7 +267,7 @@ class PatchExpand(nn.Module):
         # x = rearrange(x, 'b h w (p1 p2 c)-> b (h p1) (w p2) c', p1=2, p2=2, c=C // 4)
 
         # here is our implementation
-        # can reverse patch-emerging in Swin-Transformer encoder, seems helpful
+        # can reverse patch-merging in Swin-Transformer encoder, seems helpful
         x0, x2, x1, x3 = x.chunk(4, dim=-1)
         x = torch.stack((x0, x1, x2, x3), dim=-1)
         x = torch.chunk(x, C // 4, dim=-2)
