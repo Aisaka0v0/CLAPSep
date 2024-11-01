@@ -96,10 +96,10 @@ class AudioCapMix(torch.utils.data.Dataset):  # type: ignore
 
         mixed_resample = self.resampler(mixed)
 
-        return mixed, mixed_resample, tgt_cap, neg_cap, tgt, self.pad_or_trim(pos_sample), self.pad_or_trim(neg_sample)
+        return mixed, mixed_resample, tgt_cap, neg_cap, tgt,\
+               self.pad_or_trim(pos_sample, 48000*10), self.pad_or_trim(neg_sample, 48000*10)
 
-    def pad_or_trim(self, wav_in):
-        target_len = 48000*10
+    def pad_or_trim(self, wav_in, target_len):
         if wav_in.size(0) < target_len:
             wav_in = torch.nn.functional.pad(wav_in, (0, target_len-wav_in.size(0)))
         elif wav_in.size(0) > target_len:
