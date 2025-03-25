@@ -32,7 +32,6 @@ python train.py ./experiments/CLAPSep_base --use_cuda --gpu_ids 0 1
 ```
 
 ## Evaluation
-TODO
 
 We have released the metadata for all evaluation benchmarks in `./metadata/evaluation`.
 
